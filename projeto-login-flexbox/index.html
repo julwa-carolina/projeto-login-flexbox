@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+</head>
+<body>
+    <main>
+        <div class="formulario">
+            <form action="" method="get">
+                <h1>Login</h1>
+                <div class="campo">
+                    <input type="text" name="usu" id="iusu" placeholder="Usuario" required>
+                    <label for="iusu"><span class="material-icons">person</span></label>
+                </div>
+                <div class="campo">
+                    <input type="password" name="senha" id="isenha" placeholder="Senha" required>
+                    <label for="isenha"><span class="material-icons">lock</span></label>
+                </div>
+                <div class="lembrar-esquecer">
+                    <label for="ilembrar">
+                        <input type="checkbox" name="lembrar" id="ilembrar"> Lembrar usuario
+                    </label>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+                <button type="submit" class="entrar">Entrar</button>
+                <div class="cadastrar">
+                    <p>Nao tem uma conta? <a href="#">Cadastre-se aqui</a></p>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
